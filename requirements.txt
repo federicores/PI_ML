@@ -1,4 +1,0 @@
-fastapi  #Framework
-uvicorn  #Servidor
-pandas  #Librería
-pydantic
