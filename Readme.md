@@ -78,8 +78,6 @@ Una vez que toda la data es consumible por la API ya lista para consumir para lo
 
 **`Video`**: Necesitas que al equipo le quede claro que tus herramientas funcionan realmente! Haces un video mostrando el resultado de las consultas propuestas y de tu modelo de ML entrenado!
 
-<sub> **Spoiler**: El video NO DEBE durar mas de ***7 minutos*** y DEBE mostrar las consultas requeridas en funcionamiento desde la API** y una breve explicacion del modelo entrenado para el sistema de recomendacion. <sub/>
-
 <br/>
 
 ## **Criterios de evaluación**
