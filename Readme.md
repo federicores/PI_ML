@@ -31,9 +31,7 @@ Lo que hoy muestro es mi **`MVP`** (_Minimum Viable Product_) faltandole aun var
 <img src="https://github.com/soyHenry/DS_LABS/blob/main/Proyectos/Proyectos%20Individuales/PI01/Data07_MLops_API/src/DiagramaConceptualDelFlujoDeProcesos.png"  height=500>
 </p>
 
-<sub> Nota que aqui se reflejan procesos no herramientas tecnologicas. Has el ejercicio de entender cual herramienta del stack corresponde a cual parte del proceso<sub/>
-
-## **Propuesta de trabajo (requerimientos de aprobación)**
+## **Propuesta de trabajo **
 
 **`Transformaciones`**:  Para este MVP no necesitas perfección, ¡necesitas rapidez! ⏩ Vas a hacer estas, ***y solo estas***, transformaciones a los datos:
 
@@ -92,12 +90,6 @@ Una vez que toda la data es consumible por la API ya lista para consumir para lo
 
 **`Cumplimiento`** de los requerimientos de aprobación indicados en el apartado `Propuesta de trabajo`
 
-NOTA: Recuerde entregar el link de acceso al video. Puede alojarse en YouTube, Drive o cualquier plataforma de almacenamiento. **Verificar que sea de acceso público**.
-
-<br/>
-Aqui te sintetizamos que es lo que consideramos un MVP aprobatorio, y la diferencia con un producto completo.
-https://github.com/HX-PRomero/PI_ML_OPS/blob/main/src/MVP_MLops.png
-
 <p align="center">
 <img src="https://github.com/HX-PRomero/PI_ML_OPS/blob/main/src/MVP_MLops.png"  height=250>
 </p>
@@ -115,11 +107,3 @@ En este mismo repositorio podras encontrar algunos [links de ayuda](https://gith
 
   
 <br/>
-
-## **Deadlines importantes**
-
-+ Apertura de formularios de entrega de proyectos: **Lunes 20, 10:00 hs gmt -3**
-
-+ Cierre de formularios de entrega de proyectos: **Martes 21, 16:00hs gmt-3**
-  
-+ Demo: **Martes 21, 16:00hs gmt-3*** 
