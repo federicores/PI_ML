@@ -91,7 +91,6 @@ Una vez que toda la data es consumible por la API ya lista para consumir para lo
 **`Cumplimiento`** de los requerimientos de aprobación indicados en el apartado `Propuesta de trabajo`
 
 <p align="center">
-<img src="https://github.com/HX-PRomero/PI_ML_OPS/blob/main/src/MVP_MLops.png"  height=250>
 </p>
 
 
