@@ -12,7 +12,7 @@
 
 <hr>  
 
-## **Descripción del problema **
+## Descripción del problema
 
 ## Contexto
 
@@ -23,11 +23,9 @@ Todo ha sido cuesta arriba, desde el tratamiento y recolección de los datos (Da
 
 ## Rol a desarrollar
 
-Empezaste a trabajar como **`Data Scientist`** en una start-up que provee servicios de agregación de plataformas de streaming. El mundo es bello y vas a crear tu primer modelo de ML que soluciona un problema de negocio: un sistema de recomendación que aún no ha sido puesto en marcha! 
+Despues de una semana de arduo trabajo soy conciente de que me falta mucho para llegar a ser un **`Data Scientist`** y por esto agradezo la oportunidad de incrementar mis conocimientos y destrezas con este tipo de trabajo. Mi primer modelo de ML que es este sistema de recomendación que aún no he podido mostrar al mundo ya que me falta el deploy! 
 
-Vas a sus datos y te das cuenta que la madurez de los mismos es poca (ok, es nula :sob:): Datos sin transformar, no hay procesos automatizados para la actualización de nuevas películas o series, entre otras cosas….  haciendo tu trabajo imposible :weary:. 
-
-Debes empezar desde 0, haciendo un trabajo rápido de **`Data Engineer`** y tener un **`MVP`** (_Minimum Viable Product_) para la próxima semana! Tu cabeza va a explotar 🤯, pero al menos sabes cual es, conceptualmente, el camino que debes de seguir :exclamation:. Así que te espantas los miedos y te pones manos a la obra :muscle:
+Lo que hoy muestro es mi **`MVP`** (_Minimum Viable Product_) faltandole aun varios detalles para considerarlo un buen trabajo!🤯. Creo que se ha cumplido con el objetivo de la primera semana y tengo mas claridad de los procesos que me hacen falta :exclamation:. Así que seguir mejorando en alguna de las debilidades de mi trabajo :muscle:
 
 <p align="center">
 <img src="https://github.com/soyHenry/DS_LABS/blob/main/Proyectos/Proyectos%20Individuales/PI01/Data07_MLops_API/src/DiagramaConceptualDelFlujoDeProcesos.png"  height=500>
