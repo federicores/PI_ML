@@ -33,10 +33,7 @@ Lo que hoy muestro es mi **`MVP`** (_Minimum Viable Product_) faltandole aun var
 
 ## **Propuesta de trabajo **
 
-**`Transformaciones`**:  Para este MVP no necesitas perfección, ¡necesitas rapidez! ⏩ Vas a hacer estas, ***y solo estas***, transformaciones a los datos:
-
-
-+ Generar campo **`id`**: Cada id se compondrá de la primera letra del nombre de la plataforma, seguido del show_id ya presente en los datasets (ejemplo para títulos de Amazon = **`as123`**)
++ Utilice los notebooks ETL.ipynb y Tranformacion.ipynb para traer los datos desde los archivos csv de las peliculas y de ratings
 
 + Los valores nulos del campo rating deberán reemplazarse por el string “**`G`**” (corresponde al maturity rating: “general for all audiences”
 
