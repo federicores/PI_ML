@@ -35,41 +35,26 @@ Lo que hoy muestro es mi **`MVP`** (_Minimum Viable Product_) faltandole aun var
 
 + Utilice los notebooks ETL.ipynb y Tranformacion.ipynb para traer los datos desde los archivos csv de las peliculas y de ratings
 
-+ Los valores nulos del campo rating deberán reemplazarse por el string “**`G`**” (corresponde al maturity rating: “general for all audiences”
-
-+ De haber fechas, deberán tener el formato **`AAAA-mm-dd`**
-
-+ Los campos de texto deberán estar en **minúsculas**, sin excepciones
-
-+ El campo ***duration*** debe convertirse en dos campos: **`duration_int`** y **`duration_type`**. El primero será un integer y el segundo un string indicando la unidad de medición de duración: min (minutos) o season (temporadas)
++ Para realizar las transformaciones me llamo la atencion que debo tener un cierto orden para que dar los resultados que se buscan
 
 <br/>
 
-**`Desarrollo API`**:   Propones disponibilizar los datos de la empresa usando el framework ***FastAPI***. Las consultas que propones son las siguientes:
-
-+ Película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN. (la función debe llamarse get_max_duration(year, platform, duration_type))
-
-+ Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año (la función debe llamarse get_score_count(platform, scored, year))
-
-+ Cantidad de películas por plataforma con filtro de PLATAFORMA. (La función debe llamarse get_count_platform(platform))
-
-+ Actor que más se repite según plataforma y año. (La función debe llamarse get_actor(platform, year))
-
+**`Desarrollo API`**:   La aplicacion de codigo python para hacer las api la tome en principio de un tutoriañ de google (https://www.fastapitutorial.com/blog/fastapi-course/) que me ayudo a entender el por que y la mecanica del proceso aunque me falto mas tiempo para ahondar en mejorar la aplicacion con html y css.
 
 <br/>
 
 
-**`Deployment`**: Conoces sobre [Render](https://render.com/docs/free#free-web-services) y tienes un [tutorial de Render](https://github.com/HX-FNegrete/render-fastapi-tutorial) que te hace la vida mas facil :smile: . Tambien podrias usar [Railway](https://railway.app/), pero ten en cuenta que con este si necesitas dockerizacion.
+**`Deployment`**: Este tutorial [Render](https://blog.akashrchandran.in/deploying-fastapi-application-to-render) me ayudo para subir al app que ya me funcionaba en fastAPI local. La clave para mi estuvo en subir los archivos al repositorio de la aplicacion.
 
 <br/>
 
 **`Análisis exploratorio de los datos`**: _(Exploratory Data Analysis-EDA)_
 
-Ya los datos están limpios, ahora es tiempo de investigar las relaciones que hay entre las variables de los datasets, ver si hay outliers o anomalías (que no tienen que ser errores necesariamente :eyes: ), y ver si hay algún patrón interesante que valga la pena explorar en un análisis posterior.  Sabes que puedes apoyarte en librerías como _pandas profiling, sweetviz, autoviz_, entre otros y sacar de allí tus conclusiones 😉
+Tome varios ejemplos que encontre de graficas con maplotlib pero tuve mucha dificultad del manejo de lso datos y del entendimiento de los resultados que me arrojaban esas graficas. El enfoque que tome para analizar los datos fue desde el aldo de un inversionista que quisiera invertir en la produccion de peliculas y shows de tv mas que de un usuario que mira peliculas. Espero mejor mis analisis con el continuo ejercicio 😉
 
 **`Sistema de recomendación`**: 
 
-Una vez que toda la data es consumible por la API ya lista para consumir para los departamentos de Analytics y de Machine Learning, y nuestro EDA bien realizado entendiendo bien los datos a los que tenemos acceso, es hora de entrenar nuestro modelo de machine learning para armar un sistema de recomendación de películas para usuarios, donde dado un id de usuario y una película, nos diga si la recomienda o no para dicho usuario. De ser posible, este sistema de recomendación debe ser deployado para tener una interfaz gráfica amigable para ser utilizada, utilizando Gradio para su deployment o bien con alguna solución como Streamlit o algo similar en local (tener el deployment del sistema de recomendación o una interfaz gráfica es un plus al proyecto).
+Estuve buscando en google algun ejemplo de ML sobre sistemas de recomedacion y tome esta parte del codigo y la aplique a mis datos pero no he tenido el suficiente tiempo para estudiar el codigo y analizar los resultados que me arroja .
 
 <br/>
 
