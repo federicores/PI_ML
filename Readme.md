@@ -8,17 +8,17 @@
 <img src="https://user-images.githubusercontent.com/67664604/217914153-1eb00e25-ac08-4dfa-aaf8-53c09038f082.png"  height=300>
 </p>
 
-¡Bienvenidos al primer proyecto individual de la etapa de labs! En esta ocasión, deberán hacer un trabajo situándose en el rol de un ***MLOps Engineer***.  
+¡Bienvenidos a mi primer proyecto individual de la etapa de labs! Me encuentro en el rol de un ***MLOps Engineer***.  
 
 <hr>  
 
-## **Descripción del problema (Contexto y rol a desarrollar)**
+## **Descripción del problema **
 
 ## Contexto
 
-Tienes tu modelo de recomendación entrenado dando unas buenas métricas :smirk:, y ahora, cómo lo llevas al mundo real? :eyes:
+Hasta el momento de escribir estas lineas he llegado hasta crear el modelo de recomendación entrenado y aun no he estudiado las métricas :smirk:, y por ahora, sólo he podido hacer funcionar el Render con fastAPI para mostrar la primera parte. Aun me falta publicar el sistema de recomendación :eyes:
 
-El ciclo de vida de un proyecto de Machine Learning debe contemplar desde el tratamiento y recolección de los datos (Data Engineer stuff) hasta el entrenamiento y mantenimiento del modelo de ML según llegan nuevos datos.
+Todo ha sido cuesta arriba, desde el tratamiento y recolección de los datos (Data Engineer stuff) hasta el entrenamiento del modelo de ML. La falta de experiencia y conocimiento en este tema ponen a prueba la resistencia y motivacion que tienes para hacerte un **`Data Scientist`**.
 
 
 ## Rol a desarrollar
